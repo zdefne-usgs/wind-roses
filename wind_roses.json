@@ -1,16 +1,17 @@
 {
     "viewerMode": "2d",
     "initialCamera": {
-    "west": -180,
-    "east": 180,
-    "north": 50,
-    "south": 0
+    "west": -170,
+    "east": 55,
+    "north": 47,
+    "south": 21
   },
     "homeCamera": {
-    "west": -180,
-    "east": 180,
-    "north": 80,
-    "south": -80
+    "initialCamera": {
+    "west": -170,
+    "east": 55,
+    "north": 47,
+    "south": 21
   },
     "catalog": [
         {
