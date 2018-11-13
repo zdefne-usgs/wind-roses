@@ -17,7 +17,7 @@
             "name": "Wind data",
             "type": "csv",
             "url": "https://raw.githubusercontent.com/zdefne-usgs/wind-roses/master/wind_rose_coords.csv",
-            "description": "Wind roses from Alfredo<a href=\"link to no where\">[link]</a></p> <p> To learn more, please visit the <a href=\"no where\">No where</a>.",
+            "description": "Wind roses. <a href=\"link to no where\"> [link]</a></p> <p> To learn more, please visit the <a href=\" [link]\">No where</a>.",
             "isEnabled": true,
             "isLoading": true,
             "hideSource" : true,
