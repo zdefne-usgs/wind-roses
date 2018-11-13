@@ -1,9 +1,9 @@
 {
     "viewerMode": "2d",
     "initialCamera": {
-    "west": -170,
+    "west": -100,
     "east": -55,
-    "north": 70,
+    "north": 47,
     "south": 21
   },
     "homeCamera": {
