@@ -1,0 +1,57 @@
+{
+    "viewerMode": "2d",
+    "initialCamera": {
+    "west": -180,
+    "east": 180,
+    "north": 50,
+    "south": 0
+  },
+    "homeCamera": {
+    "west": -180,
+    "east": 180,
+    "north": 80,
+    "south": -80
+  },
+    "catalog": [
+        {
+            "name": "Wind data",
+            "type": "csv",
+            "url": "https://raw.githubusercontent.com/zdefne-usgs/wind-roses/master/wind/wind_rose_coords.csv",
+            "description": "Wind roses from Alfredo<a href=\"link to no where\">[link]</a></p> <p> To learn more, please visit the <a href=\"no where\">No where</a>.",
+            "isEnabled": true,
+            "isLoading": true,
+            "hideSource" : true,
+            "dateFormat": {
+            "timelineTic" : " Year yyyy",
+            "currentTime" : " - Year yyyy"
+            },
+            "hideSource" : true,
+            "initialTimeSource" : "2100-01-01",
+            "idColumns": ["id"],
+            //"featureInfoTemplate" : {"template": "{{SPEED}} m/s", "formats": {"SPEED": {"maximumFractionDigits": 2}}}
+            "featureInfoTemplate" : {
+                "template" : "<table style=width:100%><th><tr><td><body>{{terria.timeSeries.title}}<body></td></tr></th><tr><td><chart x-column=\"{{terria.timeSeries.xName}}\" y-column=\"{{terria.timeSeries.yName}}\" id=\"{{terria.timeSeries.id}}\" column-units=\"{{terria.timeSeries.units}}\">{{terria.timeSeries.data}}</chart></td></tr><tr><td><img vertical-align=middle src=\"https://raw.githubusercontent.com/zdefne-usgs/wind-roses/master/wind/png/{{name}}?raw=true\"style=\"width: 300px; height: 300px;\"></td></tr></table>",
+            },
+            "tableStyle": { 
+                "dataVariable": "Longitude",
+                "columns": {
+                    "id": {
+                        "type": "HIDDEN"
+                    },
+                    "lat": {
+                        "name": "Latitude",
+                        "units": "deg",
+                     },
+                    "lon": {
+                        "name": "Longitude",
+                        "units": "deg",
+                     },
+                    "name": {
+                        "name": "File name",
+                        "units": "deg",
+                     },
+                }
+            },
+        },
+    ],
+}
