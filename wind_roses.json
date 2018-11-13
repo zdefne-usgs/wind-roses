@@ -2,13 +2,13 @@
     "viewerMode": "2d",
     "initialCamera": {
     "west": -170,
-    "east": 55,
+    "east": -55,
     "north": 70,
     "south": 21
   },
     "homeCamera": {
     "west": -170,
-    "east": 55,
+    "east": -55,
     "north": 70,
     "south": 21
   },
