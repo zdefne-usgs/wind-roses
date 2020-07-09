@@ -48,7 +48,7 @@
                      },
                     "name": {
                         "name": "File name",
-                        "units": "deg",
+                        //"units": "deg",
                      },
                 }
             },
