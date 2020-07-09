@@ -33,7 +33,7 @@
                 "template" : "<table style=width:100%><th><tr><td><body>{{terria.timeSeries.title}}<body></td></tr></th><tr><td><chart x-column=\"{{terria.timeSeries.xName}}\" y-column=\"{{terria.timeSeries.yName}}\" id=\"{{terria.timeSeries.id}}\" column-units=\"{{terria.timeSeries.units}}\">{{terria.timeSeries.data}}</chart></td></tr><tr><td><img vertical-align=middle src=\"https://raw.githubusercontent.com/zdefne-usgs/wind-roses/master/png/{{name}}?raw=true\"style=\"width: 300px; height: 300px;\"></td></tr></table>",
             },
             "tableStyle": { 
-                "dataVariable": "Longitude",
+                //"dataVariable": "Longitude",
                 "columns": {
                     "id": {
                         "type": "HIDDEN"
