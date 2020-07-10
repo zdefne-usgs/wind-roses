@@ -20,7 +20,6 @@
             "description": "Wind roses. <a href=\"link to no where\"> [link]</a></p> <p> To learn more, please visit the <a href=\" [link]\">No where</a>.",
             "isEnabled": true,
             "isLoading": true,
-            "hideSource" : true,
             "dateFormat": {
             "timelineTic" : " Year yyyy",
             "currentTime" : " - Year yyyy"
@@ -36,7 +35,7 @@
                 //"dataVariable": "Longitude",
                 "columns": {
                     "id": {
-                        "type": "HIDDEN"
+                        "type": "HIDDEN",
                     },
                     "lat": {
                         "name": "Latitude",
@@ -49,6 +48,7 @@
                     "name": {
                         "name": "File name",
                         //"units": "deg",
+                        "type": "HIDDEN",
                      },
                 }
             },

@@ -7,8 +7,8 @@ Created on Fri Nov 09 18:12:51 2018
 import pandas as pd
 
 df=pd.read_csv('D:/Documents/PORTAL/terria/Wind_rose_coordinates.csv')
-df['n1']=['LO'+'{:5.2f}'.format(lon) for lon in df['lon']]
-df['n2']=['LA'+'{:5.2f}'.format(lat)  for lat in df['lat']]
+df['n1']=['W'+'{:5.2f}'.format(lon) for lon in df['lon']]
+df['n2']=['N'+'{:5.2f}'.format(lat)  for lat in df['lat']]
 
 #df['n1']=['LO'+str(lon) for lon in df['lon']]
 #df['n2']=['_LA'+str(lat)  for lat in df['lat']]
